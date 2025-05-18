@@ -4,7 +4,7 @@ import IconLink from "./react/IconLink";
 const today = new Date();
 ---
 <div class="tina-footer">
-	<div class="tina-banner-content"><img src="/llama.svg" alt="Tina CMS Llama Logo" /><a href="https://tina.io" target="_blank" rel="noopener noreferrer">Powered by TinaCMS</a>
+	<div class="tina-banner-content">Powered by<img src="/images/astro.svg" alt="Astro Logo" /><a href="https://astro.build/" target="_blank" rel="noopener noreferrer">Astro</a> and <img src="/images/llama.svg" alt="Tina CMS Llama Logo" /><a href="https://tina.io" target="_blank" rel="noopener noreferrer">TinaCMS</a>
 	</div>
 </div>
 	<footer class="copyright-footer">
@@ -63,6 +63,10 @@ const today = new Date();
 		font-size: 1.2em;
 		position: relative;
 		z-index: 2;
+		color: white;
+		text-decoration: none;
+		padding-top: 0.5em;
+		font-weight: bold;
 	}
 
 	.tina-footer::before {
@@ -72,7 +76,7 @@ const today = new Date();
 		left: -50%;
 		width: 200%;
 		height: 100%;
-		background-image: linear-gradient(60deg, #1F1E24 25%,   #EC4815 50%, #1F1E24 75%);
+		background-image: linear-gradient(60deg, #1F1E24 25%,rgb(21, 71, 236) 50%, #1F1E24 75%);
 		transition: transform 1s ease-in-out;
 		z-index: 1;
 	}
@@ -89,7 +93,7 @@ const today = new Date();
 	.tina-banner-content a {
 		color: white;
 		text-decoration: none;
-		padding-top: 0.5em;
 		font-weight: bold;
 	}
+
 </style>

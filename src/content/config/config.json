@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Astro Blog + Tina",
-    "description": "Welcome to my website!",
-    "siteOwner": "Your name here"
+    "title": "Rod Schneider - Solution Architecture, AI & Engineering",
+    "description": "Discover my 26-year tech journey: From pioneering AI-driven robotics, to wearable tech for press photographers, to collaborative 3D multimedia worlds for school children, to AI lead generation and sales automation, to mastering mobile-first, API-first cloud-native technologies like Azure, Docker, Spring Boot and Kubernetes.",
+    "siteOwner": "Rod Schneider"
   },
   "nav": [
     {
@@ -20,19 +20,19 @@
   ],
   "contactLinks": [
     {
-      "title": "Twitter",
-      "link": "https://x.com/tinacms",
-      "icon": "TbBrandTwitter"
-    },
-    {
-      "title": "Docs",
-      "link": "https://tina.io/docs",
-      "icon": "TbBook2"
-    },
-    {
       "title": "GitHub",
-      "link": "https://github.com/tinacms/tinacms",
+      "link": "https://github.com/rodschneider",
       "icon": "TbBrandGithub"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/rodschneider/",
+      "icon": "TbBrandLinkedin"
+    },
+    {
+      "title": "DEV",
+      "link": "https://dev.to/rod_schneider/",
+      "icon": "TbNotebook"
     }
   ]
 }
